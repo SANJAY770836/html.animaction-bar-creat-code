@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+padding: 0;
+}
+body {
+    font-family:'poppins',sans-serif;
+    background-color: aqua;
+}
+nav {
+    margin-top: 200px;
+    text-align: center;
+}
+ nav ul{
+    display: inline-block;
+    list-style:none;
+    transform: skew(-25deg);
+text-transform: uppercase;
+font-size: 25px;
+font-weight: 400;
+
+}
+nav ul li {
+    background-color: white;
+    float: left;
+    border-right: 1px solid whitesmoke;
+    box-shadow: 1.95px 1.95px 2.66px rgb(0, 0, 1);
+    transition: all 0.3s linear;
+
+}
+nav ul li:hover {
+    background-color: chartreuse;
+    color: white;
+}
+a {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    transform: skew(25deg);
+}
